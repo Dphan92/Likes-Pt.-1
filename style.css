@@ -1,0 +1,50 @@
+.box1{
+    height: 150px;
+    width: 442px;
+    border: 3px solid black;
+}
+.row1{
+    width: inherit;
+    height: 75px;
+}
+.row2{
+    width: inherit;
+    height: 75px;
+}
+.row2 p{
+    margin-left: 20px;
+}
+.col1{
+    height: inherit;
+    width: 190px;
+    display: inline-block;
+}
+.col1 h3{
+    margin-left: 20px;
+}
+.col2{
+    height: inherit;
+    width: 115px;
+    display: inline-block;
+    text-align: center;
+}
+.col3{
+    height: inherit;
+    width: 120px;
+    display: inline-block;
+    vertical-align: top;
+}
+.col3 button{
+    position:relative;
+    top:30%; 
+    left:30%; 
+}
+button{
+    background-color: orange;
+    color: black;
+    height: 40%;
+    width: 40%;
+}
+h4{
+    display: inline;
+}
